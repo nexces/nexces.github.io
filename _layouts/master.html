@@ -7,8 +7,26 @@
 </head>
 <body>
 <div class="container">
-    <h1 class="title">{{ page.title }}</h1>
-    {{ content }}
+    <header>
+        <h1 class="pageTitle">
+            YAY! Jekyll in action!
+        </h1>
+        <nav class="menu">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+    <article>
+        <header>
+            <h1 class="title">{{ page.title }}</h1>
+        </header>
+        <main role="main">
+            {{ content }}
+        </main>
+    </article>
+    <footer>
+        No footer
+    </footer>
 </div>
 </body>
 </html>
