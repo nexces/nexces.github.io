@@ -12,6 +12,11 @@
 # .idea/tasks.xml
 # .idea/dictionaries
 
+### Jekyll template
+_site/
+.sass-cache/
+.jekyll-metadata
+
 # Sensitive or high-churn files:
 # .idea/dataSources.ids
 # .idea/dataSources.xml
